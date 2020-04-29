@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--agregar metadatos-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>COVID-19 en Chile</title>
+</head>
+
+<body>
+    <nav>
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html" selected>Página portada</option>
+            <option value="page.html">Página interior</option>
+        </select>
+    </nav>
+    <div class="container">
+        <header>
+            <!--el elemento hgroup ya no se usa; ver http://html5doctor.com/the-hgroup-element/ -->
+            <h1><a href="index.html">COVID-19: Cómo se vive en Chile</a></h1>
+            <h3>La pandemia ha agudizado aún más la crisis sanitaria en el país</h3>
+            <h5>Revista de Frente - 16 de abril de 2020</h5>
+            <hr>
+        </header>
+        <section>
+            <p>Como muchos saben, la enfermedad por coronavirus (COVID-19) es una enfermedad infecciosa causada por un coronavirus recientemente descubierto. La mayoría de las personas que se enferman de COVID-19 experimentan síntomas de leves a moderados y se recuperan sin tratamiento especial. El virus que causa la COVID‑19 se transmite principalmente a través de gotas gordas generadas cuando una persona infectada tose, estornuda o espira. Estas gotas gordas son demasiado pesadas para permanecer suspendidas en el aire y caen rápidamente sobre el suelo o las superficies. </p>
+           
+            <blockquote cite="https://www.cooperativa.cl/noticias/sociedad/salud/coronavirus/representante-de-la-oms-en-chile-hay-que-prepararse-para-una-situacion/2020-04-21/201349.html">
+                <p>"Uno es el único susceptible en un mundo de infectantes, y todas las superficies, si no las higienicé bien, están contaminadas; y también hay que pensar de la otra manera, que uno es el único infectante en un mundo de susceptibles y tengo que cuidar a todos los demás."</p>
+                <footer><a href="https://www.cooperativa.cl/noticias/sociedad/salud/coronavirus/representante-de-la-oms-en-chile-hay-que-prepararse-para-una-situacion/2020-04-21/201349.html">Representante de la OMS en Chile</a></footer>
+            </blockquote>
+            <p>  El COVID-19 puede contagiar a cualquiera. Pero en un país segregado, impacta en la expansión del virus y en cómo los individuos vivirán la enfermedad o si morirán enfrentándola.</p>
+            <h2>Chile: un país desigual</h2>
+            <p>Estos son los tres problemas con los que se enfrentan las comunas más vulnerables:</p>
+            <!--ver https://developer.mozilla.org/es/docs/Web/HTML/Elemento/ul -->
+            <ul>
+                <li>No contar con agua potable para hacer un buen lavado de manos</li>
+                <li>Largas horas de espera para poder atenderse con un médico en caso de sospecha de COVID-19</li>
+                <li>Sobreendeudamiento por no poder asistir al trabajo debido a la cuarentena</li>
+            </ul>
+            <p>Es fundamental que esta crisis se entienda como un llamado a poner sobre la mesa los temas más fundamentales que abarcan la crisis sanitaria, para establecer una conversación y poder llegar a soluiciones eficientes.</p>
+            <figure>
+                <img src="coronavirus3.jpg" alt="Fila de personas con mascarillas puestas para poder realizar trámites.">
+                <figcaption>Fila para poder hacer trámites. A pesar de que utilizan mascarilla, no toman la distancia suficiente entre ellos.</figcaption>
+            </figure>
+            <p>En estos tiempos de COVID-19, es deber de nosotros como ciudadanos cuidarnos y cuidar al resto, por ello es fundamental la organización territorial. <strong>Para más información <a href="page.html">visita la página interior</a></strong>.</p>
+        </section>
+        <footer>
+            <hr>
+            <p>María Francisca Hepp &copy; 2020 <span class="derecha">Séptima clase, enfocada en <abbr title="HyperText Markup Language">html</abbr></span></p>
+        </footer>
+    </div>
+</body>
+
+</html>
