@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background: linear-gradient(270deg, rgba(79, 63, 190, 0.6) 60px, rgba(79, 63, 190, 0.9) 200px, rgba(252, 252, 252, 1) 350px), url('https://techcrunch.com/wp-content/uploads/2020/03/GettyImages-1210572469.jpg');
+    background: linear-gradient(270deg, rgba(275, 275, 275, 0.6) 60px, rgba(275, 275, 275, 0.9) 200px, rgba(252, 252, 252, 1) 350px), url('https://techcrunch.com/wp-content/uploads/2020/03/GettyImages-1210572469.jpg');
     background-size: 100% auto;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
@@ -34,12 +34,12 @@ h1 {
 
 h1 a {
     text-decoration: none;
-    color: #b71c1c;
+    color: #671cb7;
 }
 
 h1 a:hover {
     text-decoration: none;
-    color: #c62828;
+    color: #28a7c6;
 }
 
 h2 {
