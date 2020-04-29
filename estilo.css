@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background: linear-gradient(270deg, rgba(245, 245, 245, 0.6) 80px, rgba(245, 245, 245, 0.9) 180px, rgba(252, 252, 252, 1) 280px), url('https://techcrunch.com/wp-content/uploads/2020/03/GettyImages-1210572469.jpg');
+    background: linear-gradient(270deg, rgba(245, 245, 245, 0.6) 200px, rgba(245, 245, 245, 0.9) 400px, rgba(252, 252, 252, 1) 600px), url('https://techcrunch.com/wp-content/uploads/2020/03/GettyImages-1210572469.jpg');
     background-size: 100% auto;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
